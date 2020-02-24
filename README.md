@@ -1,7 +1,8 @@
 # FEMA Lifeline mapping through Yelp! scraping.
 
 ### Creating an updatable database and map of local businesses to supplement FEMA lifeline maps and databases
-#### By SJ Choi https://github.com/SJClarissa <br> Lena Nevel https://github.com/LenaNevel <br> Paul McKinley https://github.com/pdmckinley
+#### By
+#### SJ Choi https://github.com/SJClarissa <br> Lena Nevel https://github.com/LenaNevel <br> Paul McKinley https://github.com/pdmckinley
 
 
 ## Table of Contents
@@ -71,7 +72,7 @@ The Yelp! business database allows us to gather data on businesses in a geograph
 - 8 .csv files and one .geojson file totaling 132mb of data.
 
 ### Source
-- Yelp! data was scraped through their Fusion API, Zillow data was scraped through their own API, and population data was from the USZipcode python library which updates census info through various information sources.
+- Yelp! data was scraped through their Fusion API, Zillow data was scraped through Quandl API, and population data was from the USZipcode python library which updates census info through various information sources.
 - GeoJSON data was used from https://docs.digital.mass.gov/dataset/massgis-data-zip-codes-5-digit-here-navteq-0
 
 ### Data Dictionary
@@ -160,8 +161,10 @@ The Yelp! business database allows us to gather data on businesses in a geograph
 - https://en.wikipedia.org/wiki/2010_Boston_water_emergency
 - https://www.yelp.com/developers/documentation/v3/all_category_list
 - https://docs.digital.mass.gov/dataset/massgis-data-zip-codes-5-digit-here-navteq-0
+- https://www.quandl.com/
+- https://www.qgis.org/en/site/
 
 
-```python
+```
 
 ```
